@@ -1,33 +1,8 @@
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/nir-diamant-759323134/)
-[![Twitter](https://img.shields.io/twitter/follow/NirDiamantAI?label=Follow%20@NirDiamantAI&style=social)](https://twitter.com/NirDiamantAI)
-[![Discord](https://img.shields.io/badge/Discord-Join%20our%20community-7289da?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/cA6Aa4uyDX)
 
-
-> 🌟 **Support This Project:** Your sponsorship fuels innovation in GenAI agent development. **[Become a sponsor](https://github.com/sponsors/NirDiamant)** to help maintain and expand this valuable resource!
 
 # GenAI Agents: Comprehensive Repository for Development and Implementation 🚀
 
 Welcome to one of the most extensive and dynamic collections of Generative AI (GenAI) agent tutorials and implementations available today. This repository serves as a comprehensive resource for learning, building, and sharing GenAI agents, ranging from simple conversational bots to complex, multi-agent systems.
-
-## 📫 Stay Updated!
-
-<div align="center">
-<table>
-<tr>
-<td align="center">🚀<br><b>Cutting-edge<br>Updates</b></td>
-<td align="center">💡<br><b>Expert<br>Insights</b></td>
-<td align="center">🎯<br><b>Top 1%<br>Content</b></td>
-</tr>
-</table>
-
-[![Subscribe to DiamantAI Newsletter](images/subscribe-button.svg)](https://diamantai.substack.com/?r=336pe4&utm_campaign=pub-share-checklist)
-
-*Join thousands of AI enthusiasts getting unique cutting edge insights and free tutorials!*
-</div>
-
-[![DiamantAI's newsletter](images/substack_image.png)](https://diamantai.substack.com/?r=336pe4&utm_campaign=pub-share-checklist)
-
 
 ## Introduction
 
@@ -48,10 +23,6 @@ Furthermore, this repository serves as a platform for showcasing innovative agen
 **This repository grows stronger with your contributions!** Join our vibrant Discord community — the central hub for shaping and advancing this project together 🤝
 
 **[GenAI Agents Discord Community](https://discord.gg/cA6Aa4uyDX)**
-
-Whether you're a novice eager to learn or an expert ready to share your knowledge, your insights can shape the future of GenAI agents. Join us to propose ideas, get feedback, and collaborate on innovative implementations. For contribution guidelines, please refer to our **[CONTRIBUTING.md](https://github.com/NirDiamant/GenAI_Agents/blob/main/CONTRIBUTING.md)** file. Let's advance GenAI agent technology together!
-
-🔗 For discussions on GenAI, agents, or to explore knowledge-sharing opportunities, feel free to **[connect on LinkedIn](https://www.linkedin.com/in/nir-diamant-759323134/)**.
 
 ## Key Features
 
@@ -518,42 +489,3 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
 
     #### Implementation 🛠️
     • Implement a multi-step process involving question anonymization, high-level planning, task breakdown, adaptive information retrieval and question answering, continuous re-planning, and rigorous answer verification to ensure grounded and accurate responses.
-
-## Getting Started
-
-To begin exploring and building GenAI agents:
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/NirDiamant/GenAI_Agents.git
-   ```
-2. Navigate to the technique you're interested in:
-   ```
-   cd all_agents_tutorials/technique-name
-   ```
-3. Follow the detailed implementation guide in each technique's notebook.
-
-## Contributing
-
-We welcome contributions from the community! If you have a new technique or improvement to suggest:
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a pull request
-
-
-## Contributors
-
-[![Contributors](https://contrib.rocks/image?repo=NirDiamant/GenAI_Agents)](https://github.com/NirDiamant/GenAI_Agents/graphs/contributors)
-
-## License
-
-This project is licensed under a custom non-commercial license - see the [LICENSE](LICENSE) file for details.
-
----
-
-⭐️ If you find this repository helpful, please consider giving it a star!
-
-Keywords: GenAI, Generative AI, Agents, NLP, AI, Machine Learning, Natural Language Processing, LLM, Conversational AI, Task-Oriented AI
