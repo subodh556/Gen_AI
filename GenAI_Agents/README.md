@@ -31,7 +31,7 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
 1. **Simple Conversational Agent**
 
    - **[LangChain](https://github.com/subodh556/LLM_DEV/blob/main/GenAI_Agents/all_agents_tutorials/simple_conversational_agent.ipynb)**
-   - **[PydanticAI](https://github.com/subodh556/LLM_DEV/blob/main/GenAI_Agents/all_agents_tutorials/simple_conversational_agent-pydanticai.ipynb)**
+   
    
     #### Overview 🔎
     A context-aware conversational AI maintains information across interactions, enabling more natural dialogues.
@@ -39,18 +39,10 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Implementation 🛠️
     Integrates a language model, prompt template, and history manager to generate contextual responses and track conversation sessions.
 
-2. **[Simple Question Answering Agent](https://github.com/subodh556/LLM_DEV/blob/main/GenAI_Agents/all_agents_tutorials/simple_question_answering_agent.ipynb)**
-   
-   #### Overview 🔎
-   Answering (QA) agent using LangChain and OpenAI's language model understands user queries and provides relevant, concise answers.
-   #### Implementation 🛠️
-   Combines OpenAI's GPT model, a prompt template, and an LLMChain to process user questions and generate AI-driven responses in a streamlined manner.
-
 3. **Simple Data Analysis Agent**
 
    - **[LangChain](https://github.com/subodh556/LLM_DEV/blob/main/GenAI_Agents/all_agents_tutorials/simple_data_analysis_agent_notebook.ipynb)**
-   - **[PydanticAI](https://github.com/subodh556/LLM_DEV/blob/main/GenAI_Agents/all_agents_tutorials/simple_data_analysis_agent_notebook-pydanticai.ipynb)**
-
+   
    #### Overview 🔎
    An AI-powered data analysis agent interprets and answers questions about datasets using natural language, combining language models with data manipulation tools for intuitive data exploration.
    #### Implementation 🛠️
