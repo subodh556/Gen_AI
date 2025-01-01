@@ -12,17 +12,6 @@ Our goal is to provide a valuable resource for everyone - from beginners taking 
 
 Furthermore, this repository serves as a platform for showcasing innovative agent creations. Whether you've developed a novel agent architecture or found an innovative application for existing techniques, we encourage you to share your work with the community.
 
-## Related Projects
-
-📚 Dive into my **[comprehensive guide on RAG techniques](https://github.com/NirDiamant/RAG_Techniques)** to learn about integrating external knowledge into AI systems, enhancing their capabilities with up-to-date and relevant information retrieval.
-
-🖋️ Explore my **[Prompt Engineering Techniques guide](https://github.com/NirDiamant/Prompt_Engineering)** for an extensive collection of prompting strategies, from fundamental concepts to advanced methods, improving your ability to communicate effectively with AI language models.
-
-## A Community-Driven Knowledge Hub
-
-**This repository grows stronger with your contributions!** Join our vibrant Discord community — the central hub for shaping and advancing this project together 🤝
-
-**[GenAI Agents Discord Community](https://discord.gg/cA6Aa4uyDX)**
 
 ## Key Features
 
@@ -41,7 +30,7 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
 
 1. **Simple Conversational Agent**
 
-   - **[LangChain](https://github.com/NirDiamant/GenAI_Agents/blob/main/all_agents_tutorials/simple_conversational_agent.ipynb)**
+   - **[LangChain](https://github.com/subodh556/LLM_DEV/blob/main/GenAI_Agents/all_agents_tutorials/simple_conversational_agent.ipynb)**
    - **[PydanticAI](https://github.com/NirDiamant/GenAI_Agents/blob/main/all_agents_tutorials/simple_conversational_agent-pydanticai.ipynb)**
    
     #### Overview 🔎
