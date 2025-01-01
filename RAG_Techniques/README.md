@@ -25,8 +25,8 @@ Explore the extensive list of cutting-edge RAG techniques:
 
 1. Simple RAG 🌱
    - **[LangChain](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/simple_rag.ipynb)**
-   - **[LlamaIndex](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag_with_llamaindex.ipynb)**
-   - **[Runnable Script](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques_runnable_scripts/simple_rag.py)**
+   - **[LlamaIndex](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/simple_rag_with_llamaindex.ipynb)**
+   - **[Runnable Script](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques_runnable_scripts/simple_rag.py)**
 
    #### Overview 🔎
    Introducing basic RAG techniques ideal for newcomers.
@@ -35,8 +35,8 @@ Explore the extensive list of cutting-edge RAG techniques:
    Start with basic retrieval queries and integrate incremental learning mechanisms.
 
 2. Simple RAG using a CSV file 🧩
-   - **[LangChain](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag.ipynb)**
-   - **[LlamaIndex](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag_with_llamaindex.ipynb)**
+   - **[LangChain](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/simple_csv_rag.ipynb)**
+   - **[LlamaIndex](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/simple_csv_rag_with_llamaindex.ipynb)**
    
     #### Overview 🔎
     Introducing basic RAG using CSV files.
@@ -44,7 +44,7 @@ Explore the extensive list of cutting-edge RAG techniques:
     #### Implementation 🛠️
     This uses CSV files to create basic retrieval and integrates with openai to create question and answering system.
 
-3. **[Reliable RAG 🏷️](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reliable_rag.ipynb)**
+3. **[Reliable RAG 🏷️](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/reliable_rag.ipynb)**
 
    #### Overview 🔎
    Enhances the Simple RAG by adding validation and refinement to ensure the accuracy and relevance of retrieved information.
@@ -62,7 +62,7 @@ Explore the extensive list of cutting-edge RAG techniques:
    #### Implementation 🛠️
    Experiment with different chunk sizes to find the optimal balance between preserving context and maintaining retrieval speed for your specific use case.
 
-5. **[Proposition Chunking ⛓️‍💥](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/proposition_chunking.ipynb)**
+5. **[Proposition Chunking ⛓️‍💥](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/proposition_chunking.ipynb)**
 
    #### Overview 🔎
    Breaking down the text into concise, complete, meaningful sentences allowing for better control and handling of specific queries (especially extracting knowledge).
@@ -103,7 +103,7 @@ Explore the extensive list of cutting-edge RAG techniques:
 
 ### 📚 Context and Content Enrichment
 
-8. **[Contextual Chunk Headers :label:](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/contextual_chunk_headers.ipynb)**
+8. **[Contextual Chunk Headers :label:](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/contextual_chunk_headers.ipynb)**
 
     #### Overview 🔎
     Contextual chunk headers (CCH) is a method of creating document-level and section-level context, and prepending those chunk headers to the chunks prior to embedding them.
@@ -114,7 +114,7 @@ Explore the extensive list of cutting-edge RAG techniques:
     #### Additional Resources 📚
     **[dsRAG](https://github.com/D-Star-AI/dsRAG)**: open-source retrieval engine that implements this technique (and a few other advanced RAG techniques)
 
-9. **[Relevant Segment Extraction 🧩](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/relevant_segment_extraction.ipynb)**
+9. **[Relevant Segment Extraction 🧩](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/relevant_segment_extraction.ipynb)**
 
     #### Overview 🔎
     Relevant segment extraction (RSE) is a method of dynamically constructing multi-chunk segments of text that are relevant to a given query.
@@ -134,8 +134,8 @@ Explore the extensive list of cutting-edge RAG techniques:
    Retrieve the most relevant sentence while also accessing the sentences before and after it in the original text.
 
 11. Semantic Chunking 🧠
-   - **[LangChain](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/semantic_chunking.ipynb)**
-   - **[Runnable Script](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques_runnable_scripts/semantic_chunking.py)**
+   - **[LangChain](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/semantic_chunking.ipynb)**
+   - **[Runnable Script](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques_runnable_scripts/semantic_chunking.py)**
 
    #### Overview 🔎
    Dividing documents based on semantic coherence rather than fixed sizes.
@@ -170,7 +170,7 @@ Explore the extensive list of cutting-edge RAG techniques:
 
 14. Fusion Retrieval 🔗  
     - **[LangChain](all_rag_techniques/fusion_retrieval.ipynb)**  
-    - **[LlamaIndex](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval_with_llamaindex.ipynb)**
+    - **[LlamaIndex](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/fusion_retrieval_with_llamaindex.ipynb)**
     - **[Runnable Script](all_rag_techniques_runnable_scripts/fusion_retrieval.py)**
  
     #### Overview 🔎
@@ -181,7 +181,7 @@ Explore the extensive list of cutting-edge RAG techniques:
 
 15. Intelligent Reranking 📈  
     - **[LangChain](all_rag_techniques/reranking.ipynb)**  
-    - **[LlamaIndex](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reranking_with_llamaindex.ipynb)**
+    - **[LlamaIndex](https://github.com/subodh556/LLM_DEV/blob/main/RAG_Techniques/all_rag_techniques/reranking_with_llamaindex.ipynb)**
     - **[Runnable Script](all_rag_techniques_runnable_scripts/reranking.py)**
 
     #### Overview 🔎
