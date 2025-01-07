@@ -1,3 +1,9 @@
+import os
+import warnings
+from langchain._api import LangChainDeprecationWarning
+
+warnings.simplefilter("ignore",category=LangChainDeprecationWarning)
+
 from langchain.document_loaders import PyPDFLoader
 from langchain.docstore.document import Document
 from langchain.text_splitter import TokenTextSplitter
@@ -7,15 +13,25 @@ from langchain.chains.summarize import load_summarize_chain
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chains import RetrievalQA
-import os
-from dotenv import load_dotenv
+
+from langchain_groq import ChatGroq
+
+
+from langchain.embeddings import HuggingFaceEmbeddings
+from dotenv import load_dotenv , find_dotenv
+
+
+
+_= load_dotenv(find_dotenv())
+
+chatm = ChatGroq(
+    model="llama3-70b-8192"
+)
+
+
 from src.prompt import *
 
 
-# OpenAI authentication
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 
 
@@ -31,7 +47,7 @@ def file_processing(file_path):
         question_gen += page.page_content
         
     splitter_ques_gen = TokenTextSplitter(
-        model_name = 'gpt-3.5-turbo',
+        model_name = chatm,
         chunk_size = 10000,
         chunk_overlap = 200
     )
@@ -41,7 +57,7 @@ def file_processing(file_path):
     document_ques_gen = [Document(page_content=t) for t in chunks_ques_gen]
 
     splitter_ans_gen = TokenTextSplitter(
-        model_name = 'gpt-3.5-turbo',
+        model_name = chatm,
         chunk_size = 1000,
         chunk_overlap = 100
     )
@@ -59,10 +75,7 @@ def llm_pipeline(file_path):
 
     document_ques_gen, document_answer_gen = file_processing(file_path)
 
-    llm_ques_gen_pipeline = ChatOpenAI(
-        temperature = 0.3,
-        model = "gpt-3.5-turbo"
-    )
+    llm_ques_gen_pipeline = chatm
 
    
 
@@ -83,11 +96,13 @@ def llm_pipeline(file_path):
 
     ques = ques_gen_chain.run(document_ques_gen)
 
-    embeddings = OpenAIEmbeddings()
+    embeddings=HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
+
+    
 
     vector_store = FAISS.from_documents(document_answer_gen, embeddings)
 
-    llm_answer_gen = ChatOpenAI(temperature=0.1, model="gpt-3.5-turbo")
+    llm_answer_gen = chatm
 
     ques_list = ques.split("\n")
     filtered_ques_list = [element for element in ques_list if element.endswith('?') or element.endswith('.')]
