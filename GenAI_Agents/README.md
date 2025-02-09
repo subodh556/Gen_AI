@@ -107,7 +107,7 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Implementation 🛠️
     Utilizes StateGraph to define the application flow, incorporates custom PlannerState for process management.
 
-11. **[GenAI Career Assistant Agent](https://github.com/NirDiamant/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/agent_hackathon_genAI_career_assistant.ipynb)**
+11. **[GenAI Career Assistant Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/agent_hackathon_genAI_career_assistant.ipynb)**
 
     #### Overview 🔎
     The GenAI Career Assistant demonstrates how to create a multi-agent system that provides personalized guidance for careers in Generative AI. Using LangGraph and Gemini LLM, the system delivers customized learning paths, resume assistance, interview preparation, and job search support.
