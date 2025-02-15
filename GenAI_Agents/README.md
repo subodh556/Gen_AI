@@ -10,11 +10,9 @@ Generative AI agents are at the forefront of artificial intelligence, revolution
 
 ## GenAI Agent Implementations
 
-Explore our extensive list of GenAI agent implementations, sorted by categories:
+Explore list of GenAI agent implementations, sorted by categories:
 
-### 🌱 Beginner-Friendly Agents
-
-1. **Simple Conversational Agent**
+1. **Conversational Agent**
 
    - **[LangChain](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/simple_conversational_agent.ipynb)**
    
@@ -25,7 +23,7 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Implementation 🛠️
     Integrates a language model, prompt template, and history manager to generate contextual responses and track conversation sessions.
 
-2. **Simple Data Analysis Agent**
+2. **Data Analysis Agent**
 
    - **[LangChain](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/simple_data_analysis_agent_notebook.ipynb)**
    
@@ -44,8 +42,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
    #### Implementation 🛠️
    Step-by-step guide on using LangGraph to create a StateGraph workflow. The tutorial covers key concepts such as state management, node creation, and graph compilation. It demonstrates these principles by constructing a simple text analysis pipeline, serving as a foundation for more advanced agent architectures.
 
-### 🎓 Educational and Research Agents
-
 4. **[Scientific Paper Agent - Literature Review](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/scientific_paper_agent_langgraph.ipynb)**
    
    #### Overview 🔎
@@ -57,9 +53,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[YouTube Explanation](https://youtu.be/Bc4YtpHY6Ws)** 
     - **[Blog Post](https://open.substack.com/pub/diamantai/p/nexus-ai-the-revolutionary-research?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)**
-
-
-### 💼 Business and Professional Agents
 
 5. **[Customer Support Agent (LangGraph)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/customer_support_agent_langgraph.ipynb)**
    
@@ -118,8 +111,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[YouTube Explanation](https://www.youtube.com/watch?v=DPMtPbKmWnU)** 
 
-### 📊 Analysis and Information Processing Agents
-
 11. **[Memory-Enhanced Conversational Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/memory_enhanced_conversational_agent.ipynb)**
    
     #### Overview 🔎
@@ -151,7 +142,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
 
     #### Implementation 🛠️
     Integrates a web search module using DuckDuckGo's API, a result parser, and a text summarization engine leveraging OpenAI's language models. The system performs site-specific or general searches, extracts relevant content, generates concise summaries, and compiles attributed results for efficient information retrieval and synthesis.
-
 
 15. **[Multi agent research team - Autogen](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/research_team_autogen.ipynb)**
 
@@ -185,9 +175,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Implementation 🛠️
     Leverages LangGraph for orchestrating a multi-agent workflow including discovery, inference, and planning agents, with NetworkX for relationship graph visualization and management. The system incorporates dynamic state management through TypedDict classes, maintains database context between sessions using a db_graph attribute, and includes safety measures to prevent unauthorized database modifications.
 
-
-### 📰 News and Information Agents
-
 18. **[AInsight: AI/ML Weekly News Reporter](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/ainsight_langgraph.ipynb)**
 
     #### Overview 🔎
@@ -199,7 +186,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[YouTube Explanation](https://www.youtube.com/watch?v=kH5S1is2D_0)**
 
-
 19. **[Blog Writer (Open AI Swarm)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/blog_writer_swarm.ipynb)**
 
     #### Overview 🔎
@@ -210,9 +196,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
 
     #### Additional Resources 📚
     - **[Swarm Repo](https://github.com/openai/swarm)**
-
-
-### 🌟 Special Advanced Technique 🌟
 
 20. **[Sophisticated Controllable Agent for Complex RAG Tasks 🤖](https://github.com/NirDiamant/Controllable-RAG-Agent)**
 
