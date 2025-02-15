@@ -70,16 +70,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     - **[YouTube Explanation](https://youtu.be/Bc4YtpHY6Ws)** 
     - **[Blog Post](https://open.substack.com/pub/diamantai/p/nexus-ai-the-revolutionary-research?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)**
 
-7. **[Chiron - A Feynman-Enhanced Learning Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/chiron_learning_agent_langgraph.ipynb)**
-   
-   #### Overview 🔎
-   An adaptive learning agent that guides users through educational content using a structured checkpoint system and Feynman-style teaching. The system processes learning materials (either user-provided or web-retrieved), verifies understanding through interactive checkpoints, and provides simplified explanations when needed, creating a personalized learning experience that mimics one-on-one tutoring.
-
-   #### Implementation 🛠️
-   Uses LangGraph to orchestrate a learning workflow that includes checkpoint definition, context building, understanding verification, and Feynman teaching nodes. The system integrates web search for dynamic content retrieval, employs semantic chunking for context processing, and manages embeddings for relevant information retrieval. Key features include a 70% understanding threshold for progression, interactive human-in-the-loop validation, and structured output through Pydantic models for consistent data handling.
-
-    #### Additional Resources 📚
-    - **[YouTube Explanation](https://www.youtube.com/watch?v=qsdiTGkB8mk)** 
 
 ### 💼 Business and Professional Agents
 
@@ -129,16 +119,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[YouTube Explanation](https://www.youtube.com/watch?v=R7YWjzg3LpI)** 
 
-13. **[Contract Analysis Assistant (ClauseAI)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/ClauseAI.ipynb)**
-   
-    #### Overview 🔎
-    ClauseAI demonstrates how to build an AI-powered contract analysis system using a multi-agent approach. The system employs specialized AI agents for different aspects of contract review, from clause analysis to compliance checking, and leverages LangGraph for workflow orchestration and Pinecone for efficient clause retrieval and comparison.
-
-    #### Implementation 🛠️
-    Implements a sophisticated state-based workflow using LangGraph to coordinate multiple AI agents through contract analysis stages. The system features Pydantic models for data validation, vector storage with Pinecone for clause comparison, and LLM-based analysis for generating comprehensive contract reports. The implementation includes parallel processing capabilities and customizable report generation based on user requirements.
-
-    #### Additional Resources 📚
-    - **[YouTube Explanation](https://www.youtube.com/watch?v=rP8uv_tXuSI)** 
 
 14. **[E2E Testing Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/e2e_testing_agent.ipynb)**
    
@@ -152,30 +132,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     - **[YouTube Explanation](https://www.youtube.com/watch?v=jPXtpzcCtyA)** 
 
 ### 🎨 Creative and Content Generation Agents
-
-15. **[GIF Animation Generator Agent (LangGraph)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/gif_animation_generator_langgraph.ipynb)**
-   
-    #### Overview 🔎
-    A GIF animation generator that integrates LangGraph for workflow management, GPT-4 for text generation, and DALL-E for image creation, producing custom animations from user prompts.
-
-    #### Implementation 🛠️
-    Utilizes LangGraph to orchestrate a workflow that generates character descriptions, plots, and image prompts using GPT-4, creates images with DALL-E 3, and assembles them into GIFs using PIL. Employs asynchronous programming for efficient parallel processing.
-
-16. **[TTS Poem Generator Agent (LangGraph)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/tts_poem_generator_agent_langgraph.ipynb)**
-   
-    #### Overview 🔎
-    An advanced text-to-speech (TTS) agent using LangGraph and OpenAI's APIs classifies input text, processes it based on content type, and generates corresponding speech output.
-
-    #### Implementation 🛠️
-    Utilizes LangGraph to orchestrate a workflow that classifies input text using GPT models, applies content-specific processing, and converts the processed text to speech using OpenAI's TTS API. The system adapts its output based on the identified content type (general, poem, news, or joke).
-
-17. **[Music Compositor Agent (LangGraph)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/music_compositor_agent_langgraph.ipynb)**
-   
-    #### Overview 🔎
-    An AI Music Compositor using LangGraph and OpenAI's language models generates custom musical compositions based on user input. The system processes the input through specialized components, each contributing to the final musical piece, which is then converted to a playable MIDI file.
-
-    #### Implementation 🛠️
-    LangGraph orchestrates a workflow that transforms user input into a musical composition, using ChatOpenAI (GPT-4) to generate melody, harmony, and rhythm, which are then style-adapted. The final AI-generated composition is converted to a MIDI file using music21 and can be played back using pygame.
 
 18. **[Content Intelligence: Multi-Platform Content Generation Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/ContentIntelligence.ipynb)**
 
@@ -199,16 +155,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[YouTube Explanation](https://youtu.be/lsdDaGmkSCw?si=oF3CGfhbRqz1_Vm8)** 
 
-20. **[Murder Mystery Game with LLM Agents](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/murder_mystery_agent_langgraph.ipynb)**
-
-    #### Overview 🔎  
-    A text-based detective game that utilizes autonomous LLM agents as interactive characters in a procedurally generated murder mystery. Drawing inspiration from the UNBOUNDED paper, the system creates unique scenarios each time, with players taking on the role of Sherlock Holmes to solve the case through character interviews and deductive reasoning.
-
-    #### Implementation 🛠️
-    Leverages two LangGraph workflows - a main game loop for story/character generation and game progression, and a conversation sub-graph for character interactions. The system uses a combination of LLM-powered narrative generation, character AI, and structured game mechanics to create an immersive investigative experience with replayable storylines.
-
-     #### Additional Resources 📚
-    - **[YouTube Explanation](https://www.youtube.com/watch?v=_3cJYlk2EmA)**
 
 
 ### 📊 Analysis and Information Processing Agents
@@ -237,14 +183,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Implementation 🛠️
     Integrates a language model with chat history management, response generation, and a reflection mechanism. The system employs a learning system that incorporates insights from reflection to enhance future performance, creating a continuous improvement loop.
 
-24. **[Task-Oriented Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/task_oriented_agent.ipynb)**
-    
-    #### Overview 🔎
-    A language model application using LangChain that summarizes text and translates the summary to Spanish, combining custom functions, structured tools, and an agent for efficient text processing.
-
-    #### Implementation 🛠️
-    Utilizes custom functions for summarization and translation, wrapped as structured tools. Employs a prompt template to guide the agent, which orchestrates the use of tools. An agent executor manages the process, taking input text and producing both an English summary and its Spanish translation.
-
 25. **[Internet Search and Summarize Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/search_the_internet_and_summarize.ipynb)**
     
     #### Overview 🔎
@@ -266,28 +204,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     - **[comprehensive solution with UI](https://github.com/yanivvak/dream-team)** 
     - **[Blogpost](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/build-your-dream-team-with-autogen/ba-p/4157961)**
 
-
-27. **[Sales Call Analyzer](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/sales_call_analyzer_agent.ipynb)**
-    
-    #### Overview 🔎
-    An intelligent system that automates the analysis of sales call recordings by combining audio transcription with advanced natural language processing. The analyzer transcribes audio using OpenAI's Whisper, processes the text using NLP techniques, and generates comprehensive reports including sentiment analysis, key phrases, pain points, and actionable recommendations to improve sales performance.
-
-    #### Implementation 🛠️
-    Utilizes multiple components in a structured workflow: OpenAI Whisper for audio transcription, CrewAI for task automation and agent management, and LangChain for orchestrating the analysis pipeline. The system processes audio through a series of steps from transcription to detailed analysis, leveraging custom agents and tasks to generate structured JSON reports containing insights about customer sentiment, sales opportunities, and recommended improvements.
-
-    #### Additional Resources 📚
-    - **[YouTube Explanation](https://www.youtube.com/watch?v=SKAt_PvznDw)**
-
-28. **[Weather Emergency & Response System](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/Weather_Disaster_Management_AI_AGENT.ipynb)**
-
-    #### Overview 🔎
-    A comprehensive system demonstrating two agent graph implementations for weather emergency response: a real-time graph processing live weather data, and a hybrid graph combining real and simulated data for testing high-severity scenarios. The system handles complete workflow from data gathering through emergency plan generation, with automated notifications and human verification steps.
-
-    #### Implementation 🛠️
-    Utilizes LangGraph for orchestrating complex workflows with state management, integrating OpenWeatherMap API for real-time data, and Gemini for analysis and response generation. The system incorporates email notifications, social media monitoring simulation, and severity-based routing with configurable human verification for low/medium severity events.
-
-    #### Additional Resources 📚
-    - **[YouTube Explanation](https://www.youtube.com/watch?v=AgiOAJl_apw)**
 
 29. **[Self-Healing Codebase System](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/self_healing_code.ipynb)**
 
@@ -311,18 +227,6 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
 
 ### 📰 News and Information Agents
 
-31. **[News TL;DR using LangGraph](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/news_tldr_langgraph.ipynb)**
-    
-    #### Overview 🔎
-    A news summarization system that generates concise TL;DR summaries of current events based on user queries. The system leverages large language models for decision making and summarization while integrating with news APIs to access up-to-date content, allowing users to quickly catch up on topics of interest through generated bullet-point summaries.
-
-    #### Implementation 🛠️
-    Utilizes LangGraph to orchestrate a workflow combining multiple components: GPT-4o-mini for generating search terms and article summaries, NewsAPI for retrieving article metadata, BeautifulSoup for web scraping article content, and Asyncio for concurrent processing. The system follows a structured pipeline from query processing through article selection and summarization, managing the flow between components to produce relevant TL;DRs of current news articles.
-
-    #### Additional Resources 📚
-    - **[YouTube Explanation](https://www.youtube.com/watch?v=0fRxW6miybI)**
-    - **[Blog Post](https://open.substack.com/pub/diamantai/p/stop-reading-start-understanding?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)**
-
 32. **[AInsight: AI/ML Weekly News Reporter](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/ainsight_langgraph.ipynb)**
 
     #### Overview 🔎
@@ -334,16 +238,8 @@ Explore our extensive list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[YouTube Explanation](https://www.youtube.com/watch?v=kH5S1is2D_0)**
 
-33. **[Journalism-Focused AI Assistant](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/journalism_focused_ai_assistant_langgraph.ipynb)**
 
-    #### Overview 🔎
-    A specialized AI assistant that helps journalists tackle modern journalistic challenges like misinformation, bias, and information overload. The system integrates fact-checking, tone analysis, summarization, and grammar review tools to enhance the accuracy and efficiency of journalistic work while maintaining ethical reporting standards.
-
-    #### Implementation 🛠️
-    Leverages LangGraph to orchestrate a workflow of specialized components including language models for analysis and generation, web search integration via DuckDuckGo's API, document parsing tools like PyMuPDFLoader and WebBaseLoader, text splitting with RecursiveCharacterTextSplitter, and structured JSON outputs. Each component works together through a unified workflow to analyze content, verify facts, detect bias, extract quotes, and generate comprehensive reports.
-
-
-34. **[Blog Writer (Open AI Swarm)](https://github.com/Ysubodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/blog_writer_swarm.ipynb)**
+34. **[Blog Writer (Open AI Swarm)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/blog_writer_swarm.ipynb)**
 
     #### Overview 🔎
     A multi-agent system for collaborative blog post creation using OpenAI's Swarm package. It leverages specialized agents to perform research, planning, writing, and editing tasks efficiently.
