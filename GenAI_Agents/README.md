@@ -119,15 +119,7 @@ Explore list of GenAI agent implementations, sorted by categories:
     #### Implementation 🛠️
     Integrates a language model with separate short-term and long-term memory stores, utilizes a prompt template incorporating both memory types, and employs a memory manager for storage and retrieval. The system includes an interaction loop that updates and utilizes memories for each response.
 
-12. **[Multi-Agent Collaboration System](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/multi_agent_collaboration_system.ipynb)**
-    
-    #### Overview 🔎
-    A multi-agent collaboration system combining historical research with data analysis, leveraging large language models to simulate specialized agents working together to answer complex historical questions.
-
-    #### Implementation 🛠️
-    Utilizes a base Agent class to create specialized HistoryResearchAgent and DataAnalysisAgent, orchestrated by a HistoryDataCollaborationSystem. The system follows a five-step process: historical context provision, data needs identification, historical data provision, data analysis, and final synthesis.
-
-13. **[Self-Improving Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/self_improving_agent.ipynb)**
+12. **[Self-Improving Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/self_improving_agent.ipynb)**
     
     #### Overview 🔎
     A Self-Improving Agent using LangChain engages in conversations, learns from interactions, and continuously improves its performance over time through reflection and adaptation.
@@ -135,7 +127,7 @@ Explore list of GenAI agent implementations, sorted by categories:
     #### Implementation 🛠️
     Integrates a language model with chat history management, response generation, and a reflection mechanism. The system employs a learning system that incorporates insights from reflection to enhance future performance, creating a continuous improvement loop.
 
-14. **[Internet Search and Summarize Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/search_the_internet_and_summarize.ipynb)**
+13. **[Internet Search and Summarize Agent](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/search_the_internet_and_summarize.ipynb)**
     
     #### Overview 🔎
     An intelligent web research assistant that combines web search capabilities with AI-powered summarization, automating the process of gathering information from the internet and distilling it into concise, relevant summaries.
@@ -143,7 +135,7 @@ Explore list of GenAI agent implementations, sorted by categories:
     #### Implementation 🛠️
     Integrates a web search module using DuckDuckGo's API, a result parser, and a text summarization engine leveraging OpenAI's language models. The system performs site-specific or general searches, extracts relevant content, generates concise summaries, and compiles attributed results for efficient information retrieval and synthesis.
 
-15. **[Multi agent research team - Autogen](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/research_team_autogen.ipynb)**
+14. **[Multi agent research team - Autogen](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/research_team_autogen.ipynb)**
 
     #### Overview 🔎
     This technique explores a multi-agent system for collaborative research using the AutoGen library. It employs agents to solve tasks collaboratively, focusing on efficient execution and quality assurance. The system enhances research by distributing tasks among specialized agents.
@@ -156,7 +148,7 @@ Explore list of GenAI agent implementations, sorted by categories:
     - **[Blogpost](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/build-your-dream-team-with-autogen/ba-p/4157961)**
 
 
-16. **[Self-Healing Codebase System](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/self_healing_code.ipynb)**
+15. **[Self-Healing Codebase System](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/self_healing_code.ipynb)**
 
     #### Overview 🔎
     An intelligent system that automatically detects, diagnoses, and fixes runtime code errors using LangGraph workflow orchestration and ChromaDB vector storage. The system maintains a memory of encountered bugs and their fixes through vector embeddings, enabling pattern recognition for similar errors across the codebase.
@@ -167,15 +159,7 @@ Explore list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[YouTube Explanation](https://www.youtube.com/watch?v=ga7ShvIXOvE)**
 
-17. **[DataScribe: AI-Powered Schema Explorer](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/database_discovery_fleet.ipynb)**
-    
-    #### Overview 🔎
-    An intelligent agent system that enables intuitive exploration and querying of relational databases through natural language interactions. The system utilizes a fleet of specialized agents, coordinated by a stateful Supervisor, to handle schema discovery, query planning, and data analysis tasks while maintaining contextual understanding through vector-based relationship graphs.
-    
-    #### Implementation 🛠️
-    Leverages LangGraph for orchestrating a multi-agent workflow including discovery, inference, and planning agents, with NetworkX for relationship graph visualization and management. The system incorporates dynamic state management through TypedDict classes, maintains database context between sessions using a db_graph attribute, and includes safety measures to prevent unauthorized database modifications.
-
-18. **[AInsight: AI/ML Weekly News Reporter](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/ainsight_langgraph.ipynb)**
+16. **[AInsight: AI/ML Weekly News Reporter](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/ainsight_langgraph.ipynb)**
 
     #### Overview 🔎
     AInsight demonstrates how to build an intelligent news aggregation and summarization system using a multi-agent architecture. The system employs three specialized agents (NewsSearcher, Summarizer, Publisher) to automatically collect, process and summarize AI/ML news for general audiences through LangGraph-based workflow orchestration.
@@ -186,7 +170,7 @@ Explore list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[YouTube Explanation](https://www.youtube.com/watch?v=kH5S1is2D_0)**
 
-19. **[Blog Writer (Open AI Swarm)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/blog_writer_swarm.ipynb)**
+17. **[Blog Writer (Open AI Swarm)](https://github.com/subodh556/Gen_AI/blob/main/GenAI_Agents/all_agents_tutorials/blog_writer_swarm.ipynb)**
 
     #### Overview 🔎
     A multi-agent system for collaborative blog post creation using OpenAI's Swarm package. It leverages specialized agents to perform research, planning, writing, and editing tasks efficiently.
@@ -197,7 +181,7 @@ Explore list of GenAI agent implementations, sorted by categories:
     #### Additional Resources 📚
     - **[Swarm Repo](https://github.com/openai/swarm)**
 
-20. **[Sophisticated Controllable Agent for Complex RAG Tasks 🤖](https://github.com/NirDiamant/Controllable-RAG-Agent)**
+28. **[Sophisticated Controllable Agent for Complex RAG Tasks 🤖](https://github.com/NirDiamant/Controllable-RAG-Agent)**
 
     #### Overview 🔎
     An advanced RAG solution designed to tackle complex questions that simple semantic similarity-based retrieval cannot solve. This approach uses a sophisticated deterministic graph as the "brain" 🧠 of a highly controllable autonomous agent, capable of answering non-trivial questions from your own data.
